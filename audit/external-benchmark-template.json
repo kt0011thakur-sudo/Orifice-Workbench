@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "status": "NOT_RUN",
+  "instructions": "Copy a complete exported tag input into input. Supply unrounded outputs where available. Record each software version and method. A blank record is not a passed benchmark.",
+  "records": [
+    {
+      "tool": "Emerson DP Flow Sizing & Selection",
+      "version": null,
+      "runDate": null,
+      "operator": null,
+      "evidenceFile": null,
+      "input": null,
+      "assumptions": {
+        "tapArrangement": null,
+        "pipeAndPlateReferenceTemperature": null,
+        "baseVolumeConditions": null,
+        "propertySource": null,
+        "equationStandardAndEdition": null,
+        "rounding": null
+      },
+      "expectedCases": {
+        "min": {
+          "dpPa": null,
+          "permanentLossPa": null,
+          "boreMm": null,
+          "beta": null,
+          "cd": null,
+          "y": null,
+          "re": null,
+          "pipeVelocity": null,
+          "boreVelocity": null
+        },
+        "normal": {
+          "dpPa": null,
+          "permanentLossPa": null,
+          "boreMm": null,
+          "beta": null,
+          "cd": null,
+          "y": null,
+          "re": null,
+          "pipeVelocity": null,
+          "boreVelocity": null
+        },
+        "max": {
+          "dpPa": null,
+          "permanentLossPa": null,
+          "boreMm": null,
+          "beta": null,
+          "cd": null,
+          "y": null,
+          "re": null,
+          "pipeVelocity": null,
+          "boreVelocity": null
+        },
+        "fs": {
+          "dpPa": null,
+          "permanentLossPa": null,
+          "boreMm": null,
+          "beta": null,
+          "cd": null,
+          "y": null,
+          "re": null,
+          "pipeVelocity": null,
+          "boreVelocity": null
+        }
+      },
+      "comparisonTolerance": null,
+      "reviewer": null,
+      "disposition": "PENDING"
+    },
+    {
+      "tool": "CONVAL",
+      "version": null,
+      "runDate": null,
+      "operator": null,
+      "evidenceFile": null,
+      "input": null,
+      "assumptions": {
+        "tapArrangement": null,
+        "pipeAndPlateReferenceTemperature": null,
+        "baseVolumeConditions": null,
+        "propertySource": null,
+        "equationStandardAndEdition": null,
+        "rounding": null
+      },
+      "expectedCases": {
+        "min": {
+          "dpPa": null,
+          "permanentLossPa": null,
+          "boreMm": null,
+          "beta": null,
+          "cd": null,
+          "y": null,
+          "re": null,
+          "pipeVelocity": null,
+          "boreVelocity": null
+        },
+        "normal": {
+          "dpPa": null,
+          "permanentLossPa": null,
+          "boreMm": null,
+          "beta": null,
+          "cd": null,
+          "y": null,
+          "re": null,
+          "pipeVelocity": null,
+          "boreVelocity": null
+        },
+        "max": {
+          "dpPa": null,
+          "permanentLossPa": null,
+          "boreMm": null,
+          "beta": null,
+          "cd": null,
+          "y": null,
+          "re": null,
+          "pipeVelocity": null,
+          "boreVelocity": null
+        },
+        "fs": {
+          "dpPa": null,
+          "permanentLossPa": null,
+          "boreMm": null,
+          "beta": null,
+          "cd": null,
+          "y": null,
+          "re": null,
+          "pipeVelocity": null,
+          "boreVelocity": null
+        }
+      },
+      "comparisonTolerance": null,
+      "reviewer": null,
+      "disposition": "PENDING"
+    }
+  ]
+}

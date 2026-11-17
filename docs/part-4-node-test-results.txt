@@ -1,0 +1,60 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> orifice-part-3-backend@0.1.0 test
+> node --test tests/*.test.mjs
+
+✔ health, static app and catalog return expected content (43.778603ms)
+✔ calculation API returns a complete reviewable demo and rejects malformed input (20.829652ms)
+✔ save/load, revision conflict and serialized concurrent writes (29.443974ms)
+✔ cross-origin mutation, invalid host and arbitrary project path are rejected (10.176192ms)
+✔ XLSX upload and CSV download API work end-to-end (1349.884975ms)
+✔ malformed JSON, invalid project schemas and malformed imports have client errors (17.669659ms)
+✔ saved project inputs are readable from a restarted server (5.359772ms)
+Backend request failed: EEXIST: file already exists, mkdir '/tmp/orifice-test-EUOA0M'
+✔ unexpected storage failure returns 500 instead of mislabeling it as bad input (6.859923ms)
+✔ affine unit conversions and all catalog round trips (2.294047ms)
+✔ exact catalog selection matches NPS and DN (1.353173ms)
+✔ independent constant-Cd liquid reference and quadratic DP scaling (2.125399ms)
+✔ RHG demo sizes to full-scale target and retains review status (3.139111ms)
+✔ all four solve modes recover the same reference bore (2.12185ms)
+✔ inactive geometry is ignored in target sizing with a visible note (6.002004ms)
+✔ DP geometry must be unambiguous (0.439795ms)
+✔ larger target DP gives smaller bore within the domain (0.579163ms)
+✔ gas density obeys supplied MW/Z and DP root closes mass balance (0.847698ms)
+✔ gas SG+Z is equivalent to its molecular weight (0.80268ms)
+✔ gas ratio bounds reject high target and fixed-bore DP without clipping (0.589378ms)
+✔ automatic steam table is rejected while supplied steam properties work (0.554022ms)
+✔ thermal geometry uses separate coefficients at operating temperatures (0.335129ms)
+✔ manual WT derives ID and manual ID derives WT (0.586891ms)
+✔ invalid reference and thermal geometry is rejected (0.501945ms)
+✔ zero min flow has zero DP and no invented discharge coefficient (0.440633ms)
+✔ low Reynolds case is unavailable and completion is false (0.301318ms)
+✔ target sizing needs positive full-scale flow and feasible beta (0.568643ms)
+✔ missing gas inputs, unknown units, negative flow, and nonphysical absolute conditions fail (0.930198ms)
+✔ reject numeric strings, NaN, Infinity and nonobject inputs without crashing (0.252787ms)
+✔ input objects are not mutated (1.005671ms)
+✔ actual volumetric units recover the same mass flow including ft3/d (0.603306ms)
+✔ base-volume conversion uses explicit reference conditions (0.660992ms)
+✔ stock-volume conversion requires explicit reference density (0.262355ms)
+✔ project limits and insufficient straight runs are visible (0.372433ms)
+✔ existing bore tolerance compares full-scale DP with target (0.247245ms)
+✔ tap factors use diameter only for flange taps (0.571479ms)
+✔ bisection validates bracket, handles endpoint, and reports residual (0.268025ms)
+✔ duplicates are case-insensitive and batch size is bounded (39.823921ms)
+✔ updated workbook first tag remains invalid instead of receiving guessed properties (1.956013ms)
+✔ CSV quoted commas, double quotes, CRLF and multiline cells (2.482223ms)
+✔ CSV input round trip retains field values with null blanks (1.891028ms)
+✔ CSV rejects unknown columns, duplicates, wrong width and invalid numeric values (0.467521ms)
+✔ spreadsheet formula-like text is escaped on CSV export (0.217024ms)
+✔ results include version, engineering review and four cases (3.158155ms)
+✔ included workbook is exact source by SHA-256 (15.464306ms)
+✔ Node XLSX importer agrees with independent Python extraction of all 66 input rows (1362.354008ms)
+✔ XLSX importer rejects damaged nonarchives and oversized input (0.40206ms)
+ℹ tests 46
+ℹ suites 0
+ℹ pass 46
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1671.68586

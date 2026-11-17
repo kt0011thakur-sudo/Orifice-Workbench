@@ -1,0 +1,18 @@
+{
+  "observations": [
+    {
+      "sheet": "03_Outputs",
+      "cell": "R7",
+      "value": "1",
+      "formulaPresent": false
+    }
+  ],
+  "R7": {
+    "finding": "Literal value 1 psi replaces the normal calculated-output formula.",
+    "hiddenCell": "RO7",
+    "hiddenCachedValuePa": 12410.563127667561,
+    "targetCachedPa": 12410.5631277024,
+    "expectedDpPsi": 1.8,
+    "resolution": "Node calculates 1.8000000000045697 psi; leave source file untouched and disclose the mismatch."
+  }
+}

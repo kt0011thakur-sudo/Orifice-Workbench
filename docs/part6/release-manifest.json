@@ -1,0 +1,377 @@
+{
+  "schemaVersion": 1,
+  "delivery": "Part 6",
+  "engineVersion": "0.2.0",
+  "projectSchemaVersion": 1,
+  "createdAt": "2026-10-03T16:53:53.248604+00:00",
+  "engineeringVerified": false,
+  "engineeringRelease": "HOLD",
+  "sourceWorkbookSha256": "87f8b7621d38a8826b357cb447d26e1fff48e4acd6bc1bc1b332ae1ac40a9092",
+  "purpose": "Detect accidental changes to listed release files; not a digital signature or engineering approval. Generated evidence and saved projects are excluded.",
+  "baselineArchiveSha256": "fd2a36a16ef188ff2e224eb239d1197a88458b6edbbf93ab524aee4ab9f69c8d",
+  "changedPart5Files": [
+    "README.md",
+    "Start-Windows.bat",
+    "package-lock.json",
+    "package.json",
+    "public/styles.css",
+    "scripts/browser-check.mjs",
+    "tests/api.test.mjs",
+    "tests/startup.test.mjs"
+  ],
+  "unchangedCore": [
+    {
+      "path": "audit/baseline-units.json",
+      "part5Sha256": "9ae2ec9b5753e542d8432137b32a28b3c916605f4906ad653251aefa288d17ab",
+      "part6Sha256": "9ae2ec9b5753e542d8432137b32a28b3c916605f4906ad653251aefa288d17ab",
+      "unchanged": true
+    },
+    {
+      "path": "audit/data-audit.py",
+      "part5Sha256": "9d3100781106ff91f966fbc70c49c8234f9fa46003936c7b0ea1175e08b31098",
+      "part6Sha256": "9d3100781106ff91f966fbc70c49c8234f9fa46003936c7b0ea1175e08b31098",
+      "unchanged": true
+    },
+    {
+      "path": "audit/external-benchmark-template.json",
+      "part5Sha256": "9eb0bae176ee631ee6cf0235bf72cd433cc14acccea3e5fc802fa8370f934831",
+      "part6Sha256": "9eb0bae176ee631ee6cf0235bf72cd433cc14acccea3e5fc802fa8370f934831",
+      "unchanged": true
+    },
+    {
+      "path": "audit/independent-check.py",
+      "part5Sha256": "9e4cb6c508da6ad50da119873e6ed0980e56a2cf2d1732bedc192ba40d7ccf0b",
+      "part6Sha256": "9e4cb6c508da6ad50da119873e6ed0980e56a2cf2d1732bedc192ba40d7ccf0b",
+      "unchanged": true
+    },
+    {
+      "path": "audit/requirements.txt",
+      "part5Sha256": "1ab3031fea7f7c482aac7a82cf327e701ce9b4fa0ac0218cd8660dd819ec009f",
+      "part6Sha256": "1ab3031fea7f7c482aac7a82cf327e701ce9b4fa0ac0218cd8660dd819ec009f",
+      "unchanged": true
+    },
+    {
+      "path": "data/fields.json",
+      "part5Sha256": "d2fe1a13cb8c1c9c29a943b9dbe574888cdebf0d53d5c6389080c3676fd08dab",
+      "part6Sha256": "d2fe1a13cb8c1c9c29a943b9dbe574888cdebf0d53d5c6389080c3676fd08dab",
+      "unchanged": true
+    },
+    {
+      "path": "data/pipes.json",
+      "part5Sha256": "870fdc97ee02364d721585772d1c781b8aa8c5184cbbf8b190b573303059667b",
+      "part6Sha256": "870fdc97ee02364d721585772d1c781b8aa8c5184cbbf8b190b573303059667b",
+      "unchanged": true
+    },
+    {
+      "path": "data/units.json",
+      "part5Sha256": "a05e9d9930006ffa2f336158b92ad85afc0b9fccf504da8d5612939a7fa73800",
+      "part6Sha256": "a05e9d9930006ffa2f336158b92ad85afc0b9fccf504da8d5612939a7fa73800",
+      "unchanged": true
+    },
+    {
+      "path": "data/workbook-cache.json",
+      "part5Sha256": "e613a872d0fa630c5b0d2dbf71a4d29d35150347b56b2f7f0d66402112997804",
+      "part6Sha256": "e613a872d0fa630c5b0d2dbf71a4d29d35150347b56b2f7f0d66402112997804",
+      "unchanged": true
+    },
+    {
+      "path": "examples/demo-project.json",
+      "part5Sha256": "d60f07dc684a01b80dd4d1709b95ca4906b80a38bf78e31b736e5763dbde75d9",
+      "part6Sha256": "d60f07dc684a01b80dd4d1709b95ca4906b80a38bf78e31b736e5763dbde75d9",
+      "unchanged": true
+    },
+    {
+      "path": "examples/workbook-project.json",
+      "part5Sha256": "88a95a570d44deb76e3e305a11afe7bce3b5abeec37d0a053a88ba4681c0f4a5",
+      "part6Sha256": "88a95a570d44deb76e3e305a11afe7bce3b5abeec37d0a053a88ba4681c0f4a5",
+      "unchanged": true
+    },
+    {
+      "path": "source/workbook.xlsx",
+      "part5Sha256": "87f8b7621d38a8826b357cb447d26e1fff48e4acd6bc1bc1b332ae1ac40a9092",
+      "part6Sha256": "87f8b7621d38a8826b357cb447d26e1fff48e4acd6bc1bc1b332ae1ac40a9092",
+      "unchanged": true
+    },
+    {
+      "path": "src/catalog.ts",
+      "part5Sha256": "be20ad7c51d1c792eb47f05cdfe33d8fc50b4e510dcafc1dc5f9da30952fb213",
+      "part6Sha256": "be20ad7c51d1c792eb47f05cdfe33d8fc50b4e510dcafc1dc5f9da30952fb213",
+      "unchanged": true
+    },
+    {
+      "path": "src/csv.ts",
+      "part5Sha256": "9e1bc1a56772f8b30664cca0f4e3f4eb5ee5a4cb1503bdd76b5a5703f4db7830",
+      "part6Sha256": "9e1bc1a56772f8b30664cca0f4e3f4eb5ee5a4cb1503bdd76b5a5703f4db7830",
+      "unchanged": true
+    },
+    {
+      "path": "src/defaults.ts",
+      "part5Sha256": "9d692ef6026bec2540bce222eb539b886a4059f4346449023671fd4102369b46",
+      "part6Sha256": "9d692ef6026bec2540bce222eb539b886a4059f4346449023671fd4102369b46",
+      "unchanged": true
+    },
+    {
+      "path": "src/engine.ts",
+      "part5Sha256": "827c3a3177f19444ca240cb555e40cd62fab4d9ad9a673a236268e738f9dcc6b",
+      "part6Sha256": "827c3a3177f19444ca240cb555e40cd62fab4d9ad9a673a236268e738f9dcc6b",
+      "unchanged": true
+    },
+    {
+      "path": "src/equations.ts",
+      "part5Sha256": "fa677d362eec1b009b99982b59f545a708fcf66fc924601a622d11167cb3157b",
+      "part6Sha256": "fa677d362eec1b009b99982b59f545a708fcf66fc924601a622d11167cb3157b",
+      "unchanged": true
+    },
+    {
+      "path": "src/server.ts",
+      "part5Sha256": "35598ad34048db0eb183c3c6230b3dfbdf71a8cbc9178335aefad064f47d4329",
+      "part6Sha256": "35598ad34048db0eb183c3c6230b3dfbdf71a8cbc9178335aefad064f47d4329",
+      "unchanged": true
+    },
+    {
+      "path": "src/types.ts",
+      "part5Sha256": "a43de348dba7a4b2056a554206888086effd83bd18bb2d7c077d8441794deaa6",
+      "part6Sha256": "a43de348dba7a4b2056a554206888086effd83bd18bb2d7c077d8441794deaa6",
+      "unchanged": true
+    },
+    {
+      "path": "src/xlsx-import.ts",
+      "part5Sha256": "0e968a1b7c9515963440332099ded53b1656e810e3fa4fe98e2ea55aedff626a",
+      "part6Sha256": "0e968a1b7c9515963440332099ded53b1656e810e3fa4fe98e2ea55aedff626a",
+      "unchanged": true
+    }
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "6b7c8813e41ecd5a5d78e5457de998afaede28420759c7d6059451c1ed081ac3"
+    },
+    {
+      "path": "README.md",
+      "sha256": "d1152fdd26023c5c700b5579386e14aa521a39402633f9b2f8fb441f7bb7faa4"
+    },
+    {
+      "path": "Start-Windows.bat",
+      "sha256": "4f2397ff061aed1d3c83306e159697e3b0c47883524cf91042f5b8c88f92e5a9"
+    },
+    {
+      "path": "audit/baseline-units.json",
+      "sha256": "9ae2ec9b5753e542d8432137b32a28b3c916605f4906ad653251aefa288d17ab"
+    },
+    {
+      "path": "audit/data-audit.py",
+      "sha256": "9d3100781106ff91f966fbc70c49c8234f9fa46003936c7b0ea1175e08b31098"
+    },
+    {
+      "path": "audit/external-benchmark-template.json",
+      "sha256": "9eb0bae176ee631ee6cf0235bf72cd433cc14acccea3e5fc802fa8370f934831"
+    },
+    {
+      "path": "audit/independent-check.py",
+      "sha256": "9e4cb6c508da6ad50da119873e6ed0980e56a2cf2d1732bedc192ba40d7ccf0b"
+    },
+    {
+      "path": "audit/requirements.txt",
+      "sha256": "1ab3031fea7f7c482aac7a82cf327e701ce9b4fa0ac0218cd8660dd819ec009f"
+    },
+    {
+      "path": "data/fields.json",
+      "sha256": "d2fe1a13cb8c1c9c29a943b9dbe574888cdebf0d53d5c6389080c3676fd08dab"
+    },
+    {
+      "path": "data/pipes.json",
+      "sha256": "870fdc97ee02364d721585772d1c781b8aa8c5184cbbf8b190b573303059667b"
+    },
+    {
+      "path": "data/units.json",
+      "sha256": "a05e9d9930006ffa2f336158b92ad85afc0b9fccf504da8d5612939a7fa73800"
+    },
+    {
+      "path": "data/workbook-cache.json",
+      "sha256": "e613a872d0fa630c5b0d2dbf71a4d29d35150347b56b2f7f0d66402112997804"
+    },
+    {
+      "path": "docs/FIELD_MAPPING.md",
+      "sha256": "d782746a0909b439dcd7bcabdf31d8205da750319d1553c02d0409301c5741e3"
+    },
+    {
+      "path": "docs/GEMINI_HANDOVER.md",
+      "sha256": "0a1270419fe4c39af7440670e0333010b06226cb177f6a6e17703c584699a9cc"
+    },
+    {
+      "path": "docs/PART_1_REQUIREMENTS_AND_PLAN.md",
+      "sha256": "5cd4be4e4b1de81d908cd803745ca7d670341843f41ab0bca9ec5d8496580d1a"
+    },
+    {
+      "path": "docs/PART_2_CALCULATION_LOGIC.md",
+      "sha256": "e291708972eeeddd05c1b0ee92f6205486f0915356812d6828ace7bb4872f5f7"
+    },
+    {
+      "path": "docs/PART_3_BACKEND_GUIDE.md",
+      "sha256": "4d83030b07b8dbc6e7d9ab196147604b24beaf281f9c66275f638f335ce1c233"
+    },
+    {
+      "path": "docs/PART_3_CHANGELOG.md",
+      "sha256": "c0612487ba0744a9a708f7b3fadd95a6cd0d8efbc5eb6f13ba66e78b717bfca8"
+    },
+    {
+      "path": "docs/PART_4_CHANGELOG.md",
+      "sha256": "42c054e82866fa836248837de499bc76f7798a52b50233381e69ae6061fee4af"
+    },
+    {
+      "path": "docs/PART_4_INTERFACE_GUIDE.md",
+      "sha256": "72719836a0c7dc6c5274d16f430a8446f371f6fdc31f4abf0f007086fcca8e86"
+    },
+    {
+      "path": "docs/PART_4_VISUAL_REVIEW.md",
+      "sha256": "96fc27a52e02dd96d02386c4ae245ec3b4e8639f1b24f0d0eed7ac02d85a13a8"
+    },
+    {
+      "path": "docs/PART_5_CHANGELOG.md",
+      "sha256": "d9b7e1f101fb602d9d0f14ac3869b99986c02613597eac1e5feea12212ccde67"
+    },
+    {
+      "path": "docs/PART_5_ENGINEERING_VERIFICATION.md",
+      "sha256": "15742194f378e3419b406176933435f577e0db0dddacbdd3bd39f0ec89067d6d"
+    },
+    {
+      "path": "docs/PART_6_CHANGELOG.md",
+      "sha256": "34ee4eb2e514b44bf0a70d4aabe02f1485bed2e3f22231ca2e4d3284aae391ee"
+    },
+    {
+      "path": "docs/PART_6_FINAL_GUIDE.md",
+      "sha256": "8a718c7912c0cd569f84ddbdc440073656dc1aa6ed0edf6ed8bfa70a6aa27fa9"
+    },
+    {
+      "path": "docs/PART_6_WINDOWS_TEST_FIX.md",
+      "sha256": "1bcc8620bdf0fb002f5700fb9913a99341731a6227ea3566d3d59502c304eade"
+    },
+    {
+      "path": "docs/source-manifest.json",
+      "sha256": "76315c3d4b34b8d9de2a757b34f31a7ca4ed834cde666bd257b0d97a7c69ab22"
+    },
+    {
+      "path": "docs/source-overrides.json",
+      "sha256": "13f31efc1e50c7067fa291468db692955719ea67dd14bce02d8dd2e77102a2bf"
+    },
+    {
+      "path": "examples/demo-project.json",
+      "sha256": "d60f07dc684a01b80dd4d1709b95ca4906b80a38bf78e31b736e5763dbde75d9"
+    },
+    {
+      "path": "examples/workbook-project.json",
+      "sha256": "88a95a570d44deb76e3e305a11afe7bce3b5abeec37d0a053a88ba4681c0f4a5"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "3e06f6a5faf6f58846b95f56f34015d39044a7c152d93d565e6c527080d828ef"
+    },
+    {
+      "path": "package.json",
+      "sha256": "35c0ce3036a29c191808e80aeb0bb73fd8378c75e5292785730faba562dbf4ee"
+    },
+    {
+      "path": "public/app.js",
+      "sha256": "1ada80f1a5571cf10d635ac977a9d9ecbf65545dcf53937a27a7d4dd037182bc"
+    },
+    {
+      "path": "public/favicon.svg",
+      "sha256": "48ec95be619258671ec99b5cce6b6e3ee67b463cdf9104368b874d530ee46d2c"
+    },
+    {
+      "path": "public/index.html",
+      "sha256": "af18c28a7f11586f6f2519793efd2535426851db423ddc6ba10ca8fce5447a74"
+    },
+    {
+      "path": "public/styles.css",
+      "sha256": "b0d2cf98a8d37ce1e22b463fd71806cbf1b25baebfcb1f1f20752b0053683451"
+    },
+    {
+      "path": "scripts/api-client.mjs",
+      "sha256": "d579ea970b6417151e1407acf9490c414dccb8b5a9d14d0fa9bf59efe13605af"
+    },
+    {
+      "path": "scripts/api-walkthrough.mjs",
+      "sha256": "4c67cd014e4c3c30ac419b47fde632392c6d325d60b4e64e703ce55a20dabbcb"
+    },
+    {
+      "path": "scripts/audit-snapshot.mjs",
+      "sha256": "eda655584b5d225b5ecb162b28548e3f9ab445295ec306c84177212e7b26f5c6"
+    },
+    {
+      "path": "scripts/browser-check.mjs",
+      "sha256": "03cd4d7ac8ff89fec5c1f8d5eb3c2660b2210fe9d5b5cccfb6e10db424bd3bbe"
+    },
+    {
+      "path": "scripts/calculate.mjs",
+      "sha256": "12f7f60633df2ed955458484d10087379f286629123ef338df8a504dfcf217a8"
+    },
+    {
+      "path": "scripts/start.mjs",
+      "sha256": "042d2d1a35dfa8faea42a7c9782374b46faf2bf7da4b0f85302b67b507f457e5"
+    },
+    {
+      "path": "scripts/verify-package.mjs",
+      "sha256": "f0aad8664fb346446bba2ef7497340f75bfc3ef6c7f62cf78bc899f45ab07c6b"
+    },
+    {
+      "path": "source/workbook.xlsx",
+      "sha256": "87f8b7621d38a8826b357cb447d26e1fff48e4acd6bc1bc1b332ae1ac40a9092"
+    },
+    {
+      "path": "src/catalog.ts",
+      "sha256": "be20ad7c51d1c792eb47f05cdfe33d8fc50b4e510dcafc1dc5f9da30952fb213"
+    },
+    {
+      "path": "src/csv.ts",
+      "sha256": "9e1bc1a56772f8b30664cca0f4e3f4eb5ee5a4cb1503bdd76b5a5703f4db7830"
+    },
+    {
+      "path": "src/defaults.ts",
+      "sha256": "9d692ef6026bec2540bce222eb539b886a4059f4346449023671fd4102369b46"
+    },
+    {
+      "path": "src/engine.ts",
+      "sha256": "827c3a3177f19444ca240cb555e40cd62fab4d9ad9a673a236268e738f9dcc6b"
+    },
+    {
+      "path": "src/equations.ts",
+      "sha256": "fa677d362eec1b009b99982b59f545a708fcf66fc924601a622d11167cb3157b"
+    },
+    {
+      "path": "src/server.ts",
+      "sha256": "35598ad34048db0eb183c3c6230b3dfbdf71a8cbc9178335aefad064f47d4329"
+    },
+    {
+      "path": "src/types.ts",
+      "sha256": "a43de348dba7a4b2056a554206888086effd83bd18bb2d7c077d8441794deaa6"
+    },
+    {
+      "path": "src/xlsx-import.ts",
+      "sha256": "0e968a1b7c9515963440332099ded53b1656e810e3fa4fe98e2ea55aedff626a"
+    },
+    {
+      "path": "tests/api.test.mjs",
+      "sha256": "51c73b9fa96d8b540ce6b57234c0c102bb910f375777a91a8153d409309e7b3d"
+    },
+    {
+      "path": "tests/audit-regressions.test.mjs",
+      "sha256": "b3c4752447c4aebe765b9a6b904e9e98d8e78fe5455fc19583cbd931a8e0aaa9"
+    },
+    {
+      "path": "tests/engine.test.mjs",
+      "sha256": "18cb0c01dec80639fb1bc332959e784b40aa74b05b97a7d6f5fdb9b526dfacf5"
+    },
+    {
+      "path": "tests/import-export.test.mjs",
+      "sha256": "a450e543ffb5bd39e3dba7e24571bb97a7f58e6970583cc779c577f0c3488965"
+    },
+    {
+      "path": "tests/startup.test.mjs",
+      "sha256": "cc97d1f4a845251787739150698a8481a3f4969ad7ffdf0e9bf866a6fdb35f8f"
+    }
+  ],
+  "releaseRevision": "P6-WIN-TEST-1",
+  "updatedAt": "2026-10-03T18:05:03.965673+00:00",
+  "previousManifestSha256": "0f01fd90ae5e8165d214087439a63528fae979c2aee9fa7a6a8b3b5b9322d4a8"
+}

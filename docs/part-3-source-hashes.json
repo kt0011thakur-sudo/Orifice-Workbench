@@ -1,0 +1,10 @@
+{
+  "calculationEngineUnchangedFromPart2": true,
+  "sha256": {
+    "src/types.ts": "a43de348dba7a4b2056a554206888086effd83bd18bb2d7c077d8441794deaa6",
+    "src/catalog.ts": "475243b88a45d8bd0642f01d1ac8a651e66f6b18ae0db441bc4a807e66d5cf04",
+    "src/equations.ts": "320d86eb67c467f4ebbf80537e844abd0194319daff0ccf556d44818e8e89a7a",
+    "src/engine.ts": "93b3ffb0adc07f07f7c06aa89cb7d8a4b88154bf81864a8e9afc3ed43180295c",
+    "src/defaults.ts": "9d692ef6026bec2540bce222eb539b886a4059f4346449023671fd4102369b46"
+  }
+}

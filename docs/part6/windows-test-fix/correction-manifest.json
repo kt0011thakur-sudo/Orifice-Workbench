@@ -1,0 +1,145 @@
+{
+  "releaseRevision": "P6-WIN-TEST-1",
+  "engineVersion": "0.2.0",
+  "changedExistingFiles": [
+    "README.md",
+    "docs/part6/VERIFICATION.md",
+    "docs/part6/release-manifest.json",
+    "tests/api.test.mjs",
+    "tests/startup.test.mjs"
+  ],
+  "unchangedRuntimeFiles": [
+    {
+      "path": "Start-Windows.bat",
+      "sha256": "4f2397ff061aed1d3c83306e159697e3b0c47883524cf91042f5b8c88f92e5a9"
+    },
+    {
+      "path": "data/fields.json",
+      "sha256": "d2fe1a13cb8c1c9c29a943b9dbe574888cdebf0d53d5c6389080c3676fd08dab"
+    },
+    {
+      "path": "data/pipes.json",
+      "sha256": "870fdc97ee02364d721585772d1c781b8aa8c5184cbbf8b190b573303059667b"
+    },
+    {
+      "path": "data/units.json",
+      "sha256": "a05e9d9930006ffa2f336158b92ad85afc0b9fccf504da8d5612939a7fa73800"
+    },
+    {
+      "path": "data/workbook-cache.json",
+      "sha256": "e613a872d0fa630c5b0d2dbf71a4d29d35150347b56b2f7f0d66402112997804"
+    },
+    {
+      "path": "examples/demo-project.json",
+      "sha256": "d60f07dc684a01b80dd4d1709b95ca4906b80a38bf78e31b736e5763dbde75d9"
+    },
+    {
+      "path": "examples/workbook-project.json",
+      "sha256": "88a95a570d44deb76e3e305a11afe7bce3b5abeec37d0a053a88ba4681c0f4a5"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "3e06f6a5faf6f58846b95f56f34015d39044a7c152d93d565e6c527080d828ef"
+    },
+    {
+      "path": "package.json",
+      "sha256": "35c0ce3036a29c191808e80aeb0bb73fd8378c75e5292785730faba562dbf4ee"
+    },
+    {
+      "path": "public/app.js",
+      "sha256": "1ada80f1a5571cf10d635ac977a9d9ecbf65545dcf53937a27a7d4dd037182bc"
+    },
+    {
+      "path": "public/favicon.svg",
+      "sha256": "48ec95be619258671ec99b5cce6b6e3ee67b463cdf9104368b874d530ee46d2c"
+    },
+    {
+      "path": "public/index.html",
+      "sha256": "af18c28a7f11586f6f2519793efd2535426851db423ddc6ba10ca8fce5447a74"
+    },
+    {
+      "path": "public/styles.css",
+      "sha256": "b0d2cf98a8d37ce1e22b463fd71806cbf1b25baebfcb1f1f20752b0053683451"
+    },
+    {
+      "path": "scripts/api-client.mjs",
+      "sha256": "d579ea970b6417151e1407acf9490c414dccb8b5a9d14d0fa9bf59efe13605af"
+    },
+    {
+      "path": "scripts/api-walkthrough.mjs",
+      "sha256": "4c67cd014e4c3c30ac419b47fde632392c6d325d60b4e64e703ce55a20dabbcb"
+    },
+    {
+      "path": "scripts/audit-snapshot.mjs",
+      "sha256": "eda655584b5d225b5ecb162b28548e3f9ab445295ec306c84177212e7b26f5c6"
+    },
+    {
+      "path": "scripts/browser-check.mjs",
+      "sha256": "03cd4d7ac8ff89fec5c1f8d5eb3c2660b2210fe9d5b5cccfb6e10db424bd3bbe"
+    },
+    {
+      "path": "scripts/calculate.mjs",
+      "sha256": "12f7f60633df2ed955458484d10087379f286629123ef338df8a504dfcf217a8"
+    },
+    {
+      "path": "scripts/start.mjs",
+      "sha256": "042d2d1a35dfa8faea42a7c9782374b46faf2bf7da4b0f85302b67b507f457e5"
+    },
+    {
+      "path": "scripts/verify-package.mjs",
+      "sha256": "f0aad8664fb346446bba2ef7497340f75bfc3ef6c7f62cf78bc899f45ab07c6b"
+    },
+    {
+      "path": "source/workbook.xlsx",
+      "sha256": "87f8b7621d38a8826b357cb447d26e1fff48e4acd6bc1bc1b332ae1ac40a9092"
+    },
+    {
+      "path": "src/catalog.ts",
+      "sha256": "be20ad7c51d1c792eb47f05cdfe33d8fc50b4e510dcafc1dc5f9da30952fb213"
+    },
+    {
+      "path": "src/csv.ts",
+      "sha256": "9e1bc1a56772f8b30664cca0f4e3f4eb5ee5a4cb1503bdd76b5a5703f4db7830"
+    },
+    {
+      "path": "src/defaults.ts",
+      "sha256": "9d692ef6026bec2540bce222eb539b886a4059f4346449023671fd4102369b46"
+    },
+    {
+      "path": "src/engine.ts",
+      "sha256": "827c3a3177f19444ca240cb555e40cd62fab4d9ad9a673a236268e738f9dcc6b"
+    },
+    {
+      "path": "src/equations.ts",
+      "sha256": "fa677d362eec1b009b99982b59f545a708fcf66fc924601a622d11167cb3157b"
+    },
+    {
+      "path": "src/server.ts",
+      "sha256": "35598ad34048db0eb183c3c6230b3dfbdf71a8cbc9178335aefad064f47d4329"
+    },
+    {
+      "path": "src/types.ts",
+      "sha256": "a43de348dba7a4b2056a554206888086effd83bd18bb2d7c077d8441794deaa6"
+    },
+    {
+      "path": "src/xlsx-import.ts",
+      "sha256": "0e968a1b7c9515963440332099ded53b1656e810e3fa4fe98e2ea55aedff626a"
+    }
+  ],
+  "localVerification": {
+    "os": "Linux",
+    "node": "24.19.0",
+    "nodeTests": 62,
+    "passed": 62,
+    "failed": 0,
+    "windowsOutcomes": "Explicitly exercised termination-result regression cases; not native Windows execution."
+  },
+  "userReportedOriginalRun": {
+    "os": "Windows 10.0.26200.9457",
+    "node": "24.20.0",
+    "passed": 60,
+    "failed": 1,
+    "failure": "Expected code 0 after SIGTERM; actual null at tests/startup.test.mjs:88"
+  },
+  "nativeWindowsCorrectionRerun": "PENDING"
+}

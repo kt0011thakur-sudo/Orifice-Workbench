@@ -1,0 +1,38 @@
+{
+  "sha256": {
+    "src/catalog.ts": "475243b88a45d8bd0642f01d1ac8a651e66f6b18ae0db441bc4a807e66d5cf04",
+    "src/csv.ts": "9e1bc1a56772f8b30664cca0f4e3f4eb5ee5a4cb1503bdd76b5a5703f4db7830",
+    "src/defaults.ts": "9d692ef6026bec2540bce222eb539b886a4059f4346449023671fd4102369b46",
+    "src/engine.ts": "93b3ffb0adc07f07f7c06aa89cb7d8a4b88154bf81864a8e9afc3ed43180295c",
+    "src/equations.ts": "320d86eb67c467f4ebbf80537e844abd0194319daff0ccf556d44818e8e89a7a",
+    "src/server.ts": "35598ad34048db0eb183c3c6230b3dfbdf71a8cbc9178335aefad064f47d4329",
+    "src/types.ts": "a43de348dba7a4b2056a554206888086effd83bd18bb2d7c077d8441794deaa6",
+    "src/xlsx-import.ts": "0e968a1b7c9515963440332099ded53b1656e810e3fa4fe98e2ea55aedff626a",
+    "data/fields.json": "d2fe1a13cb8c1c9c29a943b9dbe574888cdebf0d53d5c6389080c3676fd08dab",
+    "data/pipes.json": "870fdc97ee02364d721585772d1c781b8aa8c5184cbbf8b190b573303059667b",
+    "data/units.json": "9ae2ec9b5753e542d8432137b32a28b3c916605f4906ad653251aefa288d17ab",
+    "data/workbook-cache.json": "e613a872d0fa630c5b0d2dbf71a4d29d35150347b56b2f7f0d66402112997804",
+    "public/app.js": "1ada80f1a5571cf10d635ac977a9d9ecbf65545dcf53937a27a7d4dd037182bc",
+    "public/favicon.svg": "48ec95be619258671ec99b5cce6b6e3ee67b463cdf9104368b874d530ee46d2c",
+    "public/index.html": "888be2663e54bf28ec93e2e4582d0389b364a458199c00220dd8485bc5e74169",
+    "public/styles.css": "9a62cf4406d280e8b0c9f40eec3e56178b5b590d73ec9a7b30071deefec570ca",
+    "package.json": "4d31eddcb372540f431594a27e2608f57fe1d7678dab47d7d44675c4ecd2a749",
+    "package-lock.json": "768d35848fa3005c14ff4a339f604c7a13ccf832033688c831ebfee87e36f059",
+    "scripts/browser-check.mjs": "7fc1fd51c0bd1cdd99237c6bf1c8b60eab2601634ff494b89e9ab918535e03f7",
+    "source/workbook.xlsx": "87f8b7621d38a8826b357cb447d26e1fff48e4acd6bc1bc1b332ae1ac40a9092"
+  },
+  "unchangedFromPart3": {
+    "src/catalog.ts": true,
+    "src/csv.ts": true,
+    "src/defaults.ts": true,
+    "src/engine.ts": true,
+    "src/equations.ts": true,
+    "src/server.ts": true,
+    "src/types.ts": true,
+    "src/xlsx-import.ts": true,
+    "data/fields.json": true,
+    "data/pipes.json": true,
+    "data/units.json": true,
+    "data/workbook-cache.json": true
+  }
+}

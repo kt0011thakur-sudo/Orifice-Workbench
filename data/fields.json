@@ -1,0 +1,821 @@
+[
+  {
+    "key": "tag",
+    "label": "Tag No",
+    "type": "text",
+    "choices": null,
+    "section": "Identification",
+    "sheet": "01_Input Entry",
+    "column": "A"
+  },
+  {
+    "key": "fluid",
+    "label": "Fluid Name",
+    "type": "text",
+    "choices": null,
+    "section": "Identification",
+    "sheet": "01_Input Entry",
+    "column": "B"
+  },
+  {
+    "key": "service",
+    "label": "Service / Line Description",
+    "type": "text",
+    "choices": null,
+    "section": "Identification",
+    "sheet": "01_Input Entry",
+    "column": "C"
+  },
+  {
+    "key": "phase",
+    "label": "Phase",
+    "type": "text",
+    "choices": [
+      "Liquid",
+      "Gas",
+      "Steam"
+    ],
+    "section": "Identification",
+    "sheet": "01_Input Entry",
+    "column": "D"
+  },
+  {
+    "key": "pipeStandard",
+    "label": "Pipe Standard",
+    "type": "text",
+    "choices": [
+      "ASME B36.10M",
+      "ASME B36.19M"
+    ],
+    "section": "Pipe geometry",
+    "sheet": "01_Input Entry",
+    "column": "E"
+  },
+  {
+    "key": "sizeUnit",
+    "label": "Size Unit",
+    "type": "text",
+    "choices": [
+      "NPS",
+      "DN"
+    ],
+    "section": "Pipe geometry",
+    "sheet": "01_Input Entry",
+    "column": "F"
+  },
+  {
+    "key": "size",
+    "label": "Line Size",
+    "type": "text",
+    "choices": null,
+    "section": "Pipe geometry",
+    "sheet": "01_Input Entry",
+    "column": "G"
+  },
+  {
+    "key": "schedule",
+    "label": "Schedule",
+    "type": "text",
+    "choices": null,
+    "section": "Pipe geometry",
+    "sheet": "01_Input Entry",
+    "column": "H"
+  },
+  {
+    "key": "pipeIdMode",
+    "label": "Pipe ID Mode",
+    "type": "text",
+    "choices": [
+      "AUTO",
+      "MANUAL WT",
+      "MANUAL ID"
+    ],
+    "section": "Pipe geometry",
+    "sheet": "01_Input Entry",
+    "column": "I"
+  },
+  {
+    "key": "manualWtMm",
+    "label": "Manual WT mm",
+    "type": "number",
+    "choices": null,
+    "section": "Pipe geometry",
+    "sheet": "01_Input Entry",
+    "column": "J"
+  },
+  {
+    "key": "manualIdMm",
+    "label": "Manual Pipe ID mm",
+    "type": "number",
+    "choices": null,
+    "section": "Pipe geometry",
+    "sheet": "01_Input Entry",
+    "column": "K"
+  },
+  {
+    "key": "pipeMaterial",
+    "label": "Pipe Material",
+    "type": "text",
+    "choices": null,
+    "section": "Pipe geometry",
+    "sheet": "01_Input Entry",
+    "column": "Q"
+  },
+  {
+    "key": "pipeAlpha",
+    "label": "Pipe Alpha /K",
+    "type": "number",
+    "choices": null,
+    "section": "Pipe geometry",
+    "sheet": "01_Input Entry",
+    "column": "R"
+  },
+  {
+    "key": "roughnessUm",
+    "label": "Pipe Roughness um",
+    "type": "number",
+    "choices": null,
+    "section": "Pipe geometry",
+    "sheet": "01_Input Entry",
+    "column": "S"
+  },
+  {
+    "key": "flowUnit",
+    "label": "Flow Unit",
+    "type": "text",
+    "choices": [
+      "kg/s",
+      "kg/h",
+      "t/h",
+      "lb/h",
+      "m3/s",
+      "m3/h",
+      "L/s",
+      "L/min",
+      "USgpm",
+      "bbl/d actual",
+      "kbbl/d actual",
+      "bbl/d @60F",
+      "kbbl/d @60F",
+      "SUS kbbl/d @60F",
+      "Sm3/h",
+      "Nm3/h",
+      "Sm3/d",
+      "Nm3/d",
+      "SCFD",
+      "MSCFD",
+      "MMSCFD",
+      "ft3/d actual"
+    ],
+    "section": "Operating cases",
+    "sheet": "01_Input Entry",
+    "column": "T"
+  },
+  {
+    "key": "flowMin",
+    "label": "Flow Min",
+    "type": "number",
+    "choices": null,
+    "section": "Operating cases",
+    "sheet": "01_Input Entry",
+    "column": "U"
+  },
+  {
+    "key": "flowNormal",
+    "label": "Flow Normal",
+    "type": "number",
+    "choices": null,
+    "section": "Operating cases",
+    "sheet": "01_Input Entry",
+    "column": "V"
+  },
+  {
+    "key": "flowMax",
+    "label": "Flow Max",
+    "type": "number",
+    "choices": null,
+    "section": "Operating cases",
+    "sheet": "01_Input Entry",
+    "column": "W"
+  },
+  {
+    "key": "flowFs",
+    "label": "Flow FS",
+    "type": "number",
+    "choices": null,
+    "section": "Operating cases",
+    "sheet": "01_Input Entry",
+    "column": "X"
+  },
+  {
+    "key": "temperatureUnit",
+    "label": "Temperature Unit",
+    "type": "text",
+    "choices": [
+      "degC",
+      "degF",
+      "K"
+    ],
+    "section": "Operating cases",
+    "sheet": "01_Input Entry",
+    "column": "Y"
+  },
+  {
+    "key": "temperatureMin",
+    "label": "T Min",
+    "type": "number",
+    "choices": null,
+    "section": "Operating cases",
+    "sheet": "01_Input Entry",
+    "column": "Z"
+  },
+  {
+    "key": "temperatureNormal",
+    "label": "T Normal",
+    "type": "number",
+    "choices": null,
+    "section": "Operating cases",
+    "sheet": "01_Input Entry",
+    "column": "AA"
+  },
+  {
+    "key": "temperatureMax",
+    "label": "T Max",
+    "type": "number",
+    "choices": null,
+    "section": "Operating cases",
+    "sheet": "01_Input Entry",
+    "column": "AB"
+  },
+  {
+    "key": "temperatureFs",
+    "label": "T FS",
+    "type": "number",
+    "choices": null,
+    "section": "Operating cases",
+    "sheet": "01_Input Entry",
+    "column": "AC"
+  },
+  {
+    "key": "pressureUnit",
+    "label": "Pressure Unit",
+    "type": "text",
+    "choices": [
+      "Pa(g)",
+      "kPa(g)",
+      "MPa(g)",
+      "bar(g)",
+      "psi(g)",
+      "kg/cm2(g)",
+      "Pa(a)",
+      "kPa(a)",
+      "MPa(a)",
+      "bar(a)",
+      "psia"
+    ],
+    "section": "Operating cases",
+    "sheet": "01_Input Entry",
+    "column": "AD"
+  },
+  {
+    "key": "pressureMin",
+    "label": "P Min",
+    "type": "number",
+    "choices": null,
+    "section": "Operating cases",
+    "sheet": "01_Input Entry",
+    "column": "AE"
+  },
+  {
+    "key": "pressureNormal",
+    "label": "P Normal",
+    "type": "number",
+    "choices": null,
+    "section": "Operating cases",
+    "sheet": "01_Input Entry",
+    "column": "AF"
+  },
+  {
+    "key": "pressureMax",
+    "label": "P Max",
+    "type": "number",
+    "choices": null,
+    "section": "Operating cases",
+    "sheet": "01_Input Entry",
+    "column": "AG"
+  },
+  {
+    "key": "pressureFs",
+    "label": "P FS",
+    "type": "number",
+    "choices": null,
+    "section": "Operating cases",
+    "sheet": "01_Input Entry",
+    "column": "AH"
+  },
+  {
+    "key": "propertyBasis",
+    "label": "Property Basis",
+    "type": "text",
+    "choices": [
+      "Direct Density",
+      "Specific Gravity",
+      "MW + Z",
+      "Gas SG + Z",
+      "Manual Properties",
+      "Steam Table",
+      "Base Density"
+    ],
+    "section": "Fluid properties",
+    "sheet": "01_Input Entry",
+    "column": "AI"
+  },
+  {
+    "key": "densityUnit",
+    "label": "Density Unit",
+    "type": "text",
+    "choices": [
+      "kg/m3",
+      "kg/L",
+      "lb/ft3"
+    ],
+    "section": "Fluid properties",
+    "sheet": "01_Input Entry",
+    "column": "AJ"
+  },
+  {
+    "key": "densityMin",
+    "label": "Density Min",
+    "type": "number",
+    "choices": null,
+    "section": "Fluid properties",
+    "sheet": "01_Input Entry",
+    "column": "AK"
+  },
+  {
+    "key": "densityNormal",
+    "label": "Density Normal",
+    "type": "number",
+    "choices": null,
+    "section": "Fluid properties",
+    "sheet": "01_Input Entry",
+    "column": "AL"
+  },
+  {
+    "key": "densityMax",
+    "label": "Density Max",
+    "type": "number",
+    "choices": null,
+    "section": "Fluid properties",
+    "sheet": "01_Input Entry",
+    "column": "AM"
+  },
+  {
+    "key": "densityFs",
+    "label": "Density FS",
+    "type": "number",
+    "choices": null,
+    "section": "Fluid properties",
+    "sheet": "01_Input Entry",
+    "column": "AN"
+  },
+  {
+    "key": "specificGravity",
+    "label": "Specific Gravity",
+    "type": "number",
+    "choices": null,
+    "section": "Fluid properties",
+    "sheet": "01_Input Entry",
+    "column": "AO"
+  },
+  {
+    "key": "molecularWeight",
+    "label": "Molecular Weight kg/kmol",
+    "type": "number",
+    "choices": null,
+    "section": "Fluid properties",
+    "sheet": "01_Input Entry",
+    "column": "AP"
+  },
+  {
+    "key": "zMin",
+    "label": "Z Min",
+    "type": "number",
+    "choices": null,
+    "section": "Fluid properties",
+    "sheet": "01_Input Entry",
+    "column": "AQ"
+  },
+  {
+    "key": "zNormal",
+    "label": "Z Normal",
+    "type": "number",
+    "choices": null,
+    "section": "Fluid properties",
+    "sheet": "01_Input Entry",
+    "column": "AR"
+  },
+  {
+    "key": "zMax",
+    "label": "Z Max",
+    "type": "number",
+    "choices": null,
+    "section": "Fluid properties",
+    "sheet": "01_Input Entry",
+    "column": "AS"
+  },
+  {
+    "key": "zFs",
+    "label": "Z FS",
+    "type": "number",
+    "choices": null,
+    "section": "Fluid properties",
+    "sheet": "01_Input Entry",
+    "column": "AT"
+  },
+  {
+    "key": "gamma",
+    "label": "k / Gamma",
+    "type": "number",
+    "choices": null,
+    "section": "Fluid properties",
+    "sheet": "01_Input Entry",
+    "column": "AU"
+  },
+  {
+    "key": "viscosityUnit",
+    "label": "Viscosity Unit",
+    "type": "text",
+    "choices": [
+      "Pa.s",
+      "cP",
+      "mPa.s"
+    ],
+    "section": "Fluid properties",
+    "sheet": "01_Input Entry",
+    "column": "AV"
+  },
+  {
+    "key": "viscosity",
+    "label": "Dynamic Viscosity",
+    "type": "number",
+    "choices": null,
+    "section": "Fluid properties",
+    "sheet": "01_Input Entry",
+    "column": "AW"
+  },
+  {
+    "key": "basePressureKpa",
+    "label": "Base Pressure kPa abs",
+    "type": "number",
+    "choices": null,
+    "section": "Fluid properties",
+    "sheet": "01_Input Entry",
+    "column": "AX"
+  },
+  {
+    "key": "baseTemperatureC",
+    "label": "Base Temperature C",
+    "type": "number",
+    "choices": null,
+    "section": "Fluid properties",
+    "sheet": "01_Input Entry",
+    "column": "AY"
+  },
+  {
+    "key": "baseZ",
+    "label": "Base Z",
+    "type": "number",
+    "choices": null,
+    "section": "Fluid properties",
+    "sheet": "01_Input Entry",
+    "column": "AZ"
+  },
+  {
+    "key": "baseDensity",
+    "label": "Base Density kg/m3",
+    "type": "number",
+    "choices": null,
+    "section": "Fluid properties",
+    "sheet": "01_Input Entry",
+    "column": "BA"
+  },
+  {
+    "key": "propertySource",
+    "label": "Property Source",
+    "type": "text",
+    "choices": null,
+    "section": "Fluid properties",
+    "sheet": "01_Input Entry",
+    "column": "BB"
+  },
+  {
+    "key": "straightRunBasis",
+    "label": "Straight Run Basis",
+    "type": "text",
+    "choices": [
+      "Project-entered requirement",
+      "Published guidance",
+      "Unknown"
+    ],
+    "section": "Installation",
+    "sheet": "01_Input Entry",
+    "column": "BC"
+  },
+  {
+    "key": "straightRunCase",
+    "label": "Straight Run Case",
+    "type": "text",
+    "choices": [
+      "Reducer",
+      "Single 90° bend or tee",
+      "Two 90° bends same plane",
+      "Two 90° bends different planes",
+      "Expander",
+      "Fully open ball/gate valve",
+      "Other / project-defined"
+    ],
+    "section": "Installation",
+    "sheet": "01_Input Entry",
+    "column": "BD"
+  },
+  {
+    "key": "requiredUpstreamD",
+    "label": "Required Upstream D",
+    "type": "number",
+    "choices": null,
+    "section": "Installation",
+    "sheet": "01_Input Entry",
+    "column": "BE"
+  },
+  {
+    "key": "requiredDownstreamD",
+    "label": "Required Downstream D",
+    "type": "number",
+    "choices": null,
+    "section": "Installation",
+    "sheet": "01_Input Entry",
+    "column": "BF"
+  },
+  {
+    "key": "availableUpstreamD",
+    "label": "Available Upstream D",
+    "type": "number",
+    "choices": null,
+    "section": "Installation",
+    "sheet": "01_Input Entry",
+    "column": "BG"
+  },
+  {
+    "key": "availableDownstreamD",
+    "label": "Available Downstream D",
+    "type": "number",
+    "choices": null,
+    "section": "Installation",
+    "sheet": "01_Input Entry",
+    "column": "BH"
+  },
+  {
+    "key": "thermalExpansion",
+    "label": "Apply Thermal Expansion",
+    "type": "text",
+    "choices": [
+      "YES",
+      "NO"
+    ],
+    "section": "Thermal expansion",
+    "sheet": "01_Input Entry",
+    "column": "BI"
+  },
+  {
+    "key": "plateAlpha",
+    "label": "Plate Alpha /K",
+    "type": "number",
+    "choices": null,
+    "section": "Thermal expansion",
+    "sheet": "01_Input Entry",
+    "column": "BJ"
+  },
+  {
+    "key": "revision",
+    "label": "Revision",
+    "type": "text",
+    "choices": null,
+    "section": "Record",
+    "sheet": "01_Input Entry",
+    "column": "BK"
+  },
+  {
+    "key": "preparedBy",
+    "label": "Prepared By",
+    "type": "text",
+    "choices": null,
+    "section": "Record",
+    "sheet": "01_Input Entry",
+    "column": "BL"
+  },
+  {
+    "key": "checkedBy",
+    "label": "Checked By",
+    "type": "text",
+    "choices": null,
+    "section": "Record",
+    "sheet": "01_Input Entry",
+    "column": "BM"
+  },
+  {
+    "key": "approvedBy",
+    "label": "Approved By",
+    "type": "text",
+    "choices": null,
+    "section": "Record",
+    "sheet": "01_Input Entry",
+    "column": "BN"
+  },
+  {
+    "key": "note",
+    "label": "Engineering Note",
+    "type": "text",
+    "choices": null,
+    "section": "Record",
+    "sheet": "01_Input Entry",
+    "column": "BO"
+  },
+  {
+    "key": "mode",
+    "label": "Solve For",
+    "type": "text",
+    "choices": [
+      "Solve for DP",
+      "Solve for Beta",
+      "Solve for Bore",
+      "Check Existing Bore"
+    ],
+    "section": "Sizing settings",
+    "sheet": "02_Output Settings",
+    "column": "D"
+  },
+  {
+    "key": "targetDp",
+    "label": "Target DP FS",
+    "type": "number",
+    "choices": null,
+    "section": "Sizing settings",
+    "sheet": "02_Output Settings",
+    "column": "E"
+  },
+  {
+    "key": "dpUnit",
+    "label": "DP Unit",
+    "type": "text",
+    "choices": [
+      "Pa",
+      "kPa",
+      "mbar",
+      "bar",
+      "psi",
+      "mmH2O_4C",
+      "inH2O_4C"
+    ],
+    "section": "Sizing settings",
+    "sheet": "02_Output Settings",
+    "column": "F"
+  },
+  {
+    "key": "boreMm",
+    "label": "Input Bore mm",
+    "type": "number",
+    "choices": null,
+    "section": "Sizing settings",
+    "sheet": "02_Output Settings",
+    "column": "G"
+  },
+  {
+    "key": "beta",
+    "label": "Input Beta",
+    "type": "number",
+    "choices": null,
+    "section": "Sizing settings",
+    "sheet": "02_Output Settings",
+    "column": "H"
+  },
+  {
+    "key": "boreConfiguration",
+    "label": "Bore Configuration",
+    "type": "text",
+    "choices": [
+      "Concentric square-edged"
+    ],
+    "section": "Sizing settings",
+    "sheet": "02_Output Settings",
+    "column": "I"
+  },
+  {
+    "key": "taps",
+    "label": "Tap Type",
+    "type": "text",
+    "choices": [
+      "Flange taps",
+      "Corner taps",
+      "D and D/2 taps"
+    ],
+    "section": "Sizing settings",
+    "sheet": "02_Output Settings",
+    "column": "J"
+  },
+  {
+    "key": "standard",
+    "label": "Applicable Standard",
+    "type": "text",
+    "choices": [
+      "ISO 5167-1/-2:2022"
+    ],
+    "section": "Sizing settings",
+    "sheet": "02_Output Settings",
+    "column": "K"
+  },
+  {
+    "key": "cdMode",
+    "label": "Cd Mode",
+    "type": "text",
+    "choices": [
+      "RHG",
+      "Manual"
+    ],
+    "section": "Sizing settings",
+    "sheet": "02_Output Settings",
+    "column": "L"
+  },
+  {
+    "key": "manualCd",
+    "label": "Manual Cd",
+    "type": "number",
+    "choices": null,
+    "section": "Sizing settings",
+    "sheet": "02_Output Settings",
+    "column": "M"
+  },
+  {
+    "key": "betaMin",
+    "label": "Beta Min",
+    "type": "number",
+    "choices": null,
+    "section": "Project limits",
+    "sheet": "02_Output Settings",
+    "column": "N"
+  },
+  {
+    "key": "betaMax",
+    "label": "Beta Max",
+    "type": "number",
+    "choices": null,
+    "section": "Project limits",
+    "sheet": "02_Output Settings",
+    "column": "O"
+  },
+  {
+    "key": "minDp",
+    "label": "Min Allowable DP",
+    "type": "number",
+    "choices": null,
+    "section": "Project limits",
+    "sheet": "02_Output Settings",
+    "column": "P"
+  },
+  {
+    "key": "maxDp",
+    "label": "Max Allowable DP @ Max Flow",
+    "type": "number",
+    "choices": null,
+    "section": "Project limits",
+    "sheet": "02_Output Settings",
+    "column": "Q"
+  },
+  {
+    "key": "pipeVelocityLimit",
+    "label": "Max Pipe Velocity m/s",
+    "type": "number",
+    "choices": null,
+    "section": "Project limits",
+    "sheet": "02_Output Settings",
+    "column": "R"
+  },
+  {
+    "key": "boreVelocityLimit",
+    "label": "Max Bore Velocity m/s",
+    "type": "number",
+    "choices": null,
+    "section": "Project limits",
+    "sheet": "02_Output Settings",
+    "column": "S"
+  },
+  {
+    "key": "existingTolerancePct",
+    "label": "Existing Bore DP Tolerance %",
+    "type": "number",
+    "choices": null,
+    "section": "Project limits",
+    "sheet": "02_Output Settings",
+    "column": "T"
+  }
+]

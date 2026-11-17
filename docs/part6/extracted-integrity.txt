@@ -1,0 +1,2 @@
+PASS: 56 delivered files match the Part 6 manifest. Engine 0.2.0.
+This verifies file identity, not engineering approval. Generated evidence and saved projects are excluded.

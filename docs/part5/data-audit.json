@@ -1,0 +1,696 @@
+{
+  "unitFactors": {
+    "beforePass": 47,
+    "afterPass": 49,
+    "total": 49,
+    "legacyMismatches": [
+      {
+        "quantity": "DP",
+        "unit": "mmH2O_4C",
+        "actualFactor": 9.80665,
+        "referenceFactor": 9.80638,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": false
+      },
+      {
+        "quantity": "DP",
+        "unit": "inH2O_4C",
+        "actualFactor": 249.08891,
+        "referenceFactor": 249.082,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": false
+      }
+    ],
+    "rows": [
+      {
+        "quantity": "Flow",
+        "unit": "kg/s",
+        "actualFactor": 1.0,
+        "referenceFactor": 1,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": true
+      },
+      {
+        "quantity": "Flow",
+        "unit": "kg/h",
+        "actualFactor": 0.0002777777777777778,
+        "referenceFactor": 0.0002777777777777778,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": true
+      },
+      {
+        "quantity": "Flow",
+        "unit": "t/h",
+        "actualFactor": 0.2777777777777778,
+        "referenceFactor": 0.2777777777777778,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": true
+      },
+      {
+        "quantity": "Flow",
+        "unit": "lb/h",
+        "actualFactor": 0.00012599788055555556,
+        "referenceFactor": 0.00012599788055555556,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": true
+      },
+      {
+        "quantity": "Flow",
+        "unit": "m3/s",
+        "actualFactor": 1.0,
+        "referenceFactor": 1,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": true
+      },
+      {
+        "quantity": "Flow",
+        "unit": "m3/h",
+        "actualFactor": 0.0002777777777777778,
+        "referenceFactor": 0.0002777777777777778,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": true
+      },
+      {
+        "quantity": "Flow",
+        "unit": "L/s",
+        "actualFactor": 0.001,
+        "referenceFactor": 0.001,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": true
+      },
+      {
+        "quantity": "Flow",
+        "unit": "L/min",
+        "actualFactor": 1.6666666666666667e-05,
+        "referenceFactor": 1.6666666666666667e-05,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": true
+      },
+      {
+        "quantity": "Flow",
+        "unit": "USgpm",
+        "actualFactor": 6.30901964e-05,
+        "referenceFactor": 6.309019639999999e-05,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": true
+      },
+      {
+        "quantity": "Flow",
+        "unit": "bbl/d actual",
+        "actualFactor": 1.8401307283333336e-06,
+        "referenceFactor": 1.8401307283333331e-06,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": true
+      },
+      {
+        "quantity": "Flow",
+        "unit": "kbbl/d actual",
+        "actualFactor": 0.0018401307283333335,
+        "referenceFactor": 0.001840130728333333,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": true
+      },
+      {
+        "quantity": "Flow",
+        "unit": "bbl/d @60F",
+        "actualFactor": 1.8401307283333336e-06,
+        "referenceFactor": 1.8401307283333331e-06,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": true
+      },
+      {
+        "quantity": "Flow",
+        "unit": "kbbl/d @60F",
+        "actualFactor": 0.0018401307283333335,
+        "referenceFactor": 0.001840130728333333,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": true
+      },
+      {
+        "quantity": "Flow",
+        "unit": "SUS kbbl/d @60F",
+        "actualFactor": 0.0018401307283333335,
+        "referenceFactor": 0.001840130728333333,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": true
+      },
+      {
+        "quantity": "Flow",
+        "unit": "Sm3/h",
+        "actualFactor": 0.0002777777777777778,
+        "referenceFactor": 0.0002777777777777778,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": true
+      },
+      {
+        "quantity": "Flow",
+        "unit": "Nm3/h",
+        "actualFactor": 0.0002777777777777778,
+        "referenceFactor": 0.0002777777777777778,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": true
+      },
+      {
+        "quantity": "Flow",
+        "unit": "Sm3/d",
+        "actualFactor": 1.1574074074074073e-05,
+        "referenceFactor": 1.1574074074074073e-05,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": true
+      },
+      {
+        "quantity": "Flow",
+        "unit": "Nm3/d",
+        "actualFactor": 1.1574074074074073e-05,
+        "referenceFactor": 1.1574074074074073e-05,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": true
+      },
+      {
+        "quantity": "Flow",
+        "unit": "SCFD",
+        "actualFactor": 3.2774128000000003e-07,
+        "referenceFactor": 3.277412799999999e-07,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": true
+      },
+      {
+        "quantity": "Flow",
+        "unit": "MSCFD",
+        "actualFactor": 0.00032774128,
+        "referenceFactor": 0.0003277412799999999,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": true
+      },
+      {
+        "quantity": "Flow",
+        "unit": "MMSCFD",
+        "actualFactor": 0.32774128,
+        "referenceFactor": 0.3277412799999999,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": true
+      },
+      {
+        "quantity": "Temperature",
+        "unit": "degC",
+        "actualFactor": 1.0,
+        "referenceFactor": 1,
+        "actualOffset": 273.15,
+        "referenceOffset": 273.15,
+        "pass": true
+      },
+      {
+        "quantity": "Temperature",
+        "unit": "degF",
+        "actualFactor": 0.5555555555555556,
+        "referenceFactor": 0.5555555555555556,
+        "actualOffset": 255.3722222222,
+        "referenceOffset": 255.3722222222222,
+        "pass": true
+      },
+      {
+        "quantity": "Temperature",
+        "unit": "K",
+        "actualFactor": 1.0,
+        "referenceFactor": 1,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": true
+      },
+      {
+        "quantity": "Pressure",
+        "unit": "Pa(g)",
+        "actualFactor": 1.0,
+        "referenceFactor": 1,
+        "actualOffset": 101325.0,
+        "referenceOffset": 101325,
+        "pass": true
+      },
+      {
+        "quantity": "Pressure",
+        "unit": "Pa(a)",
+        "actualFactor": 1.0,
+        "referenceFactor": 1,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": true
+      },
+      {
+        "quantity": "Pressure",
+        "unit": "kPa(g)",
+        "actualFactor": 1000.0,
+        "referenceFactor": 1000,
+        "actualOffset": 101325.0,
+        "referenceOffset": 101325,
+        "pass": true
+      },
+      {
+        "quantity": "Pressure",
+        "unit": "kPa(a)",
+        "actualFactor": 1000.0,
+        "referenceFactor": 1000,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": true
+      },
+      {
+        "quantity": "Pressure",
+        "unit": "bar(g)",
+        "actualFactor": 100000.0,
+        "referenceFactor": 100000,
+        "actualOffset": 101325.0,
+        "referenceOffset": 101325,
+        "pass": true
+      },
+      {
+        "quantity": "Pressure",
+        "unit": "bar(a)",
+        "actualFactor": 100000.0,
+        "referenceFactor": 100000,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": true
+      },
+      {
+        "quantity": "Pressure",
+        "unit": "psi(g)",
+        "actualFactor": 6894.757293168,
+        "referenceFactor": 6894.757293168361,
+        "actualOffset": 101325.0,
+        "referenceOffset": 101325,
+        "pass": true
+      },
+      {
+        "quantity": "Pressure",
+        "unit": "psia",
+        "actualFactor": 6894.757293168,
+        "referenceFactor": 6894.757293168361,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": true
+      },
+      {
+        "quantity": "Pressure",
+        "unit": "MPa(g)",
+        "actualFactor": 1000000.0,
+        "referenceFactor": 1000000.0,
+        "actualOffset": 101325.0,
+        "referenceOffset": 101325,
+        "pass": true
+      },
+      {
+        "quantity": "Pressure",
+        "unit": "MPa(a)",
+        "actualFactor": 1000000.0,
+        "referenceFactor": 1000000.0,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": true
+      },
+      {
+        "quantity": "Pressure",
+        "unit": "kg/cm2(g)",
+        "actualFactor": 98066.5,
+        "referenceFactor": 98066.49999999999,
+        "actualOffset": 101325.0,
+        "referenceOffset": 101325,
+        "pass": true
+      },
+      {
+        "quantity": "DP",
+        "unit": "Pa",
+        "actualFactor": 1.0,
+        "referenceFactor": 1,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": true
+      },
+      {
+        "quantity": "DP",
+        "unit": "kPa",
+        "actualFactor": 1000.0,
+        "referenceFactor": 1000,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": true
+      },
+      {
+        "quantity": "DP",
+        "unit": "mbar",
+        "actualFactor": 100.0,
+        "referenceFactor": 100,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": true
+      },
+      {
+        "quantity": "DP",
+        "unit": "bar",
+        "actualFactor": 100000.0,
+        "referenceFactor": 100000,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": true
+      },
+      {
+        "quantity": "DP",
+        "unit": "psi",
+        "actualFactor": 6894.757293168,
+        "referenceFactor": 6894.757293168361,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": true
+      },
+      {
+        "quantity": "DP",
+        "unit": "mmH2O_4C",
+        "actualFactor": 9.80638,
+        "referenceFactor": 9.80638,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": true
+      },
+      {
+        "quantity": "DP",
+        "unit": "inH2O_4C",
+        "actualFactor": 249.082,
+        "referenceFactor": 249.082,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": true
+      },
+      {
+        "quantity": "Density",
+        "unit": "kg/m3",
+        "actualFactor": 1.0,
+        "referenceFactor": 1,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": true
+      },
+      {
+        "quantity": "Density",
+        "unit": "kg/L",
+        "actualFactor": 1000.0,
+        "referenceFactor": 1000,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": true
+      },
+      {
+        "quantity": "Density",
+        "unit": "lb/ft3",
+        "actualFactor": 16.01846337396,
+        "referenceFactor": 16.018463373960145,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": true
+      },
+      {
+        "quantity": "Viscosity",
+        "unit": "Pa.s",
+        "actualFactor": 1.0,
+        "referenceFactor": 1,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": true
+      },
+      {
+        "quantity": "Viscosity",
+        "unit": "cP",
+        "actualFactor": 0.001,
+        "referenceFactor": 0.001,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": true
+      },
+      {
+        "quantity": "Viscosity",
+        "unit": "mPa.s",
+        "actualFactor": 0.001,
+        "referenceFactor": 0.001,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": true
+      },
+      {
+        "quantity": "Flow",
+        "unit": "ft3/d actual",
+        "actualFactor": 3.2774128000000003e-07,
+        "referenceFactor": 3.277412799999999e-07,
+        "actualOffset": 0.0,
+        "referenceOffset": 0,
+        "pass": true
+      }
+    ],
+    "note": "Numeric factor and offset verification. Gauge pressure assumes 101325 Pa atmosphere; base/stock volume requires valid supplied reference properties. SUS naming not independently standardized."
+  },
+  "pipes": {
+    "records": 355,
+    "internalFailures": [],
+    "manufacturerSpotChecks": [
+      {
+        "nps": "1",
+        "catalog": {
+          "odMm": 33.4,
+          "wtMm": 3.38,
+          "idMm": 26.64
+        },
+        "reference": {
+          "odMm": 33.4,
+          "wtMm": 3.38,
+          "idMm": 26.6
+        },
+        "odWtMatch": true,
+        "idMatchWithin0_08mm": true,
+        "referenceInternalConflict": false,
+        "status": "PASS"
+      },
+      {
+        "nps": "1 1/4",
+        "catalog": {
+          "odMm": 42.2,
+          "wtMm": 3.56,
+          "idMm": 35.08
+        },
+        "reference": {
+          "odMm": 42.2,
+          "wtMm": 3.56,
+          "idMm": 35.1
+        },
+        "odWtMatch": true,
+        "idMatchWithin0_08mm": true,
+        "referenceInternalConflict": false,
+        "status": "PASS"
+      },
+      {
+        "nps": "1 1/2",
+        "catalog": {
+          "odMm": 48.3,
+          "wtMm": 3.68,
+          "idMm": 40.94
+        },
+        "reference": {
+          "odMm": 48.3,
+          "wtMm": 3.68,
+          "idMm": 40.9
+        },
+        "odWtMatch": true,
+        "idMatchWithin0_08mm": true,
+        "referenceInternalConflict": false,
+        "status": "PASS"
+      },
+      {
+        "nps": "2",
+        "catalog": {
+          "odMm": 60.3,
+          "wtMm": 3.91,
+          "idMm": 52.48
+        },
+        "reference": {
+          "odMm": 60.3,
+          "wtMm": 3.91,
+          "idMm": 52.5
+        },
+        "odWtMatch": true,
+        "idMatchWithin0_08mm": true,
+        "referenceInternalConflict": false,
+        "status": "PASS"
+      },
+      {
+        "nps": "2 1/2",
+        "catalog": {
+          "odMm": 73.0,
+          "wtMm": 5.16,
+          "idMm": 62.68
+        },
+        "reference": {
+          "odMm": 73.0,
+          "wtMm": 5.16,
+          "idMm": 62.7
+        },
+        "odWtMatch": true,
+        "idMatchWithin0_08mm": true,
+        "referenceInternalConflict": false,
+        "status": "PASS"
+      },
+      {
+        "nps": "3",
+        "catalog": {
+          "odMm": 88.9,
+          "wtMm": 5.49,
+          "idMm": 77.92
+        },
+        "reference": {
+          "odMm": 88.9,
+          "wtMm": 5.49,
+          "idMm": 77.9
+        },
+        "odWtMatch": true,
+        "idMatchWithin0_08mm": true,
+        "referenceInternalConflict": false,
+        "status": "PASS"
+      },
+      {
+        "nps": "3 1/2",
+        "catalog": {
+          "odMm": 101.6,
+          "wtMm": 5.74,
+          "idMm": 90.12
+        },
+        "reference": {
+          "odMm": 101.6,
+          "wtMm": 5.74,
+          "idMm": 90.1
+        },
+        "odWtMatch": true,
+        "idMatchWithin0_08mm": true,
+        "referenceInternalConflict": false,
+        "status": "PASS"
+      },
+      {
+        "nps": "4",
+        "catalog": {
+          "odMm": 114.3,
+          "wtMm": 6.02,
+          "idMm": 102.26
+        },
+        "reference": {
+          "odMm": 114.3,
+          "wtMm": 6.02,
+          "idMm": 102.3
+        },
+        "odWtMatch": true,
+        "idMatchWithin0_08mm": true,
+        "referenceInternalConflict": false,
+        "status": "PASS"
+      },
+      {
+        "nps": "5",
+        "catalog": {
+          "odMm": 141.3,
+          "wtMm": 6.55,
+          "idMm": 128.2
+        },
+        "reference": {
+          "odMm": 141.3,
+          "wtMm": 6.55,
+          "idMm": 158.2
+        },
+        "odWtMatch": true,
+        "idMatchWithin0_08mm": false,
+        "referenceInternalConflict": true,
+        "status": "REFERENCE_CONFLICT"
+      },
+      {
+        "nps": "6",
+        "catalog": {
+          "odMm": 168.3,
+          "wtMm": 7.11,
+          "idMm": 154.08
+        },
+        "reference": {
+          "odMm": 168.3,
+          "wtMm": 7.11,
+          "idMm": 154.1
+        },
+        "odWtMatch": true,
+        "idMatchWithin0_08mm": true,
+        "referenceInternalConflict": false,
+        "status": "PASS"
+      },
+      {
+        "nps": "8",
+        "catalog": {
+          "odMm": 219.1,
+          "wtMm": 8.18,
+          "idMm": 202.74
+        },
+        "reference": {
+          "odMm": 219.1,
+          "wtMm": 8.18,
+          "idMm": 202.7
+        },
+        "odWtMatch": true,
+        "idMatchWithin0_08mm": true,
+        "referenceInternalConflict": false,
+        "status": "PASS"
+      }
+    ],
+    "note": "Manufacturer spot checks do not verify all schedules, tolerances, material selection or ASME editions."
+  },
+  "workbook": {
+    "tags": 66,
+    "complete": 37,
+    "statusCounts": {
+      "FAIL": 32,
+      "CHECK": 34
+    },
+    "allFourCasesMissing": 24,
+    "computedCases": 157,
+    "numericChangesVersusPart4": [],
+    "cachedComparable": 1695,
+    "cachedMatches": 1694,
+    "cachedUnavailable": 1011,
+    "cachedMismatches": [
+      {
+        "tag": "FEH3F1006 -FE",
+        "cell": "03_Outputs!R7",
+        "node": 1.8000000000045697,
+        "cached": 1.0,
+        "pass": false
+      }
+    ],
+    "comparisonScope": "I through AX only: five tag geometry/bore/beta columns plus nine quantities at four operating cases. Excel was not recalculated.",
+    "sourceCell": {
+      "cell": "03_Outputs!R7",
+      "stored": 1,
+      "type": "n",
+      "RO7_cached_Pa": 12410.563127667561
+    },
+    "sha256": "87f8b7621d38a8826b357cb447d26e1fff48e4acd6bc1bc1b332ae1ac40a9092"
+  }
+}

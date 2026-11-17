@@ -1,0 +1,28 @@
+{
+  "source": "Working tool 2026.09.20(4).xlsx",
+  "sha256": "87f8b7621d38a8826b357cb447d26e1fff48e4acd6bc1bc1b332ae1ac40a9092",
+  "tagCount": 66,
+  "pipeRecords": 355,
+  "unitRecords": 49,
+  "fields": 79,
+  "sheets": {
+    "01_Input Entry": {
+      "formulaCellsIncludingShared": 3500,
+      "cachedErrorCells": 0
+    },
+    "Sheet1": {
+      "formulaCellsIncludingShared": 0,
+      "cachedErrorCells": 0
+    },
+    "02_Output Settings": {
+      "formulaCellsIncludingShared": 1549,
+      "cachedErrorCells": 0
+    },
+    "03_Outputs": {
+      "formulaCellsIncludingShared": 249499,
+      "cachedErrorCells": 280
+    }
+  },
+  "cachedResultsOnly": true,
+  "engineeringVerified": false
+}

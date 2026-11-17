@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "checks": [
+    "Health and local API",
+    "Versioned catalogs",
+    "Demo calculation at 50 kPa",
+    "66-tag XLSX import with missing data preserved",
+    "Create and read project",
+    "Update and stale-revision conflict",
+    "Input CSV round trip and freshly calculated results CSV",
+    "Persistence after server restart",
+    "API client and UTF-8 file export",
+    "CSV client creates a portable project object"
+  ],
+  "sourceTags": 66,
+  "engineVersion": "0.2.0",
+  "savedRevision": 2,
+  "storage": "Temporary directory removed on completion"
+}

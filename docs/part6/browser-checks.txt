@@ -1,0 +1,18 @@
+PASS Input screen, five views and keyboard skip link
+PASS Water demo results and graphics match backend output
+PASS Sizing view, DP solve and existing-bore check
+PASS Edits immediately invalidate calculated outputs
+PASS Equivalent NPS/DN choice and manual ID override
+PASS Incomplete gas input has linked errors and no invented geometry
+PASS A delayed calculation cannot overwrite edited inputs
+PASS Save, reopen and portable JSON export
+PASS Edits made while saving remain in the draft
+PASS Stale save conflict preserves the browser draft
+PASS JSON import and inert display of user-supplied HTML
+PASS Input CSV export and import retain the four flow values
+PASS Updated XLSX import, all 66 tags and batch status filters
+PASS Results CSV download and source/method view
+PASS Mobile inputs, project panel and results without page overflow
+PASS Print CSS and generated PDF include results and input context
+PASS No uncaught browser errors or unexpected console/CSP errors
+PASS: 17/17; browser 154.0.8037.57; 2026-10-03T16:36:23.122Z

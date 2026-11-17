@@ -1,0 +1,69 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> orifice-part-5-verification@0.2.0 test
+> node --test tests/*.test.mjs
+
+✔ health, static app and catalog return expected content (28.165771ms)
+✔ calculation API returns a complete reviewable demo and rejects malformed input (12.553324ms)
+✔ save/load, revision conflict and serialized concurrent writes (25.021736ms)
+✔ cross-origin mutation, invalid host and arbitrary project path are rejected (6.498048ms)
+✔ XLSX upload and CSV download API work end-to-end (1002.801252ms)
+✔ malformed JSON, invalid project schemas and malformed imports have client errors (23.580342ms)
+✔ saved project inputs are readable from a restarted server (6.207706ms)
+Backend request failed: EEXIST: file already exists, mkdir '/tmp/orifice-test-A988ty'
+✔ unexpected storage failure returns 500 instead of mislabeling it as bad input (6.468784ms)
+✔ 4 C water factors follow NIST rather than conventional water (1.200536ms)
+✔ unused zero or negative target DP cannot block fixed-bore calculation (8.263875ms)
+✔ target DP stays mandatory and positive for target sizing (0.628555ms)
+✔ missing existing-bore target is explicitly HOLD without hiding fixed-bore results (0.194162ms)
+✔ supplied existing-bore target is validated and actually compared (0.390648ms)
+✔ water-unit changes preserve SI output for equivalent input pressure (0.867134ms)
+✔ gas sizing at pressure ratio 0.75 respects solver residual tolerance (0.580353ms)
+✔ gas mass flow materially beyond the pressure-ratio limit is not clipped (0.587794ms)
+✔ bisection accepts endpoint residual within tolerance but rejects a real unbracketed root (3.392105ms)
+✔ affine unit conversions and all catalog round trips (5.778916ms)
+✔ exact catalog selection matches NPS and DN (0.687745ms)
+✔ independent constant-Cd liquid reference and quadratic DP scaling (1.850825ms)
+✔ RHG demo sizes to full-scale target and retains review status (0.884871ms)
+✔ all four solve modes recover the same reference bore (1.240556ms)
+✔ inactive geometry is ignored in target sizing with a visible note (0.763399ms)
+✔ DP geometry must be unambiguous (0.436187ms)
+✔ larger target DP gives smaller bore within the domain (0.649437ms)
+✔ gas density obeys supplied MW/Z and DP root closes mass balance (1.077562ms)
+✔ gas SG+Z is equivalent to its molecular weight (1.929443ms)
+✔ gas ratio bounds reject high target and fixed-bore DP without clipping (0.484659ms)
+✔ automatic steam table is rejected while supplied steam properties work (0.464609ms)
+✔ thermal geometry uses separate coefficients at operating temperatures (0.323777ms)
+✔ manual WT derives ID and manual ID derives WT (0.348834ms)
+✔ invalid reference and thermal geometry is rejected (0.376096ms)
+✔ zero min flow has zero DP and no invented discharge coefficient (0.348755ms)
+✔ low Reynolds case is unavailable and completion is false (0.268084ms)
+✔ target sizing needs positive full-scale flow and feasible beta (0.533533ms)
+✔ missing gas inputs, unknown units, negative flow, and nonphysical absolute conditions fail (0.719372ms)
+✔ reject numeric strings, NaN, Infinity and nonobject inputs without crashing (0.550899ms)
+✔ input objects are not mutated (0.89774ms)
+✔ actual volumetric units recover the same mass flow including ft3/d (0.702848ms)
+✔ base-volume conversion uses explicit reference conditions (0.701055ms)
+✔ stock-volume conversion requires explicit reference density (0.289105ms)
+✔ project limits and insufficient straight runs are visible (0.283978ms)
+✔ existing bore tolerance compares full-scale DP with target (0.997881ms)
+✔ tap factors use diameter only for flange taps (0.633343ms)
+✔ bisection validates bracket, handles endpoint, and reports residual (0.228543ms)
+✔ duplicates are case-insensitive and batch size is bounded (42.889957ms)
+✔ updated workbook first tag remains invalid instead of receiving guessed properties (2.667563ms)
+✔ CSV quoted commas, double quotes, CRLF and multiline cells (2.191197ms)
+✔ CSV input round trip retains field values with null blanks (1.618795ms)
+✔ CSV rejects unknown columns, duplicates, wrong width and invalid numeric values (1.063921ms)
+✔ spreadsheet formula-like text is escaped on CSV export (0.21306ms)
+✔ results include version, engineering review and four cases (3.029699ms)
+✔ included workbook is exact source by SHA-256 (10.218966ms)
+✔ Node XLSX importer agrees with independent Python extraction of all 66 input rows (1023.103261ms)
+✔ XLSX importer rejects damaged nonarchives and oversized input (0.335976ms)
+ℹ tests 55
+ℹ suites 0
+ℹ pass 55
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1242.387381

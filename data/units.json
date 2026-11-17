@@ -1,0 +1,443 @@
+[
+  {
+    "quantity": "Flow",
+    "unit": "kg/s",
+    "basis": "mass",
+    "internalUnit": "kg/s",
+    "multiplier": 1.0,
+    "offset": 0.0,
+    "note": "Direct mass flow"
+  },
+  {
+    "quantity": "Flow",
+    "unit": "kg/h",
+    "basis": "mass",
+    "internalUnit": "kg/s",
+    "multiplier": 0.0002777777777777778,
+    "offset": 0.0,
+    "note": null
+  },
+  {
+    "quantity": "Flow",
+    "unit": "t/h",
+    "basis": "mass",
+    "internalUnit": "kg/s",
+    "multiplier": 0.2777777777777778,
+    "offset": 0.0,
+    "note": null
+  },
+  {
+    "quantity": "Flow",
+    "unit": "lb/h",
+    "basis": "mass",
+    "internalUnit": "kg/s",
+    "multiplier": 0.00012599788055555556,
+    "offset": 0.0,
+    "note": null
+  },
+  {
+    "quantity": "Flow",
+    "unit": "m3/s",
+    "basis": "actual volume",
+    "internalUnit": "m3/s",
+    "multiplier": 1.0,
+    "offset": 0.0,
+    "note": "Multiply by operating density"
+  },
+  {
+    "quantity": "Flow",
+    "unit": "m3/h",
+    "basis": "actual volume",
+    "internalUnit": "m3/s",
+    "multiplier": 0.0002777777777777778,
+    "offset": 0.0,
+    "note": "Multiply by operating density"
+  },
+  {
+    "quantity": "Flow",
+    "unit": "L/s",
+    "basis": "actual volume",
+    "internalUnit": "m3/s",
+    "multiplier": 0.001,
+    "offset": 0.0,
+    "note": "Multiply by operating density"
+  },
+  {
+    "quantity": "Flow",
+    "unit": "L/min",
+    "basis": "actual volume",
+    "internalUnit": "m3/s",
+    "multiplier": 1.6666666666666667e-05,
+    "offset": 0.0,
+    "note": "Multiply by operating density"
+  },
+  {
+    "quantity": "Flow",
+    "unit": "USgpm",
+    "basis": "actual volume",
+    "internalUnit": "m3/s",
+    "multiplier": 6.30901964e-05,
+    "offset": 0.0,
+    "note": "Multiply by operating density"
+  },
+  {
+    "quantity": "Flow",
+    "unit": "bbl/d actual",
+    "basis": "actual volume",
+    "internalUnit": "m3/s",
+    "multiplier": 1.8401307283333336e-06,
+    "offset": 0.0,
+    "note": "Multiply by operating density"
+  },
+  {
+    "quantity": "Flow",
+    "unit": "kbbl/d actual",
+    "basis": "actual volume",
+    "internalUnit": "m3/s",
+    "multiplier": 0.0018401307283333335,
+    "offset": 0.0,
+    "note": "Multiply by operating density"
+  },
+  {
+    "quantity": "Flow",
+    "unit": "bbl/d @60F",
+    "basis": "stock volume",
+    "internalUnit": "m3/s",
+    "multiplier": 1.8401307283333336e-06,
+    "offset": 0.0,
+    "note": "Multiply by stock density"
+  },
+  {
+    "quantity": "Flow",
+    "unit": "kbbl/d @60F",
+    "basis": "stock volume",
+    "internalUnit": "m3/s",
+    "multiplier": 0.0018401307283333335,
+    "offset": 0.0,
+    "note": "Multiply by stock density"
+  },
+  {
+    "quantity": "Flow",
+    "unit": "SUS kbbl/d @60F",
+    "basis": "stock volume",
+    "internalUnit": "m3/s",
+    "multiplier": 0.0018401307283333335,
+    "offset": 0.0,
+    "note": "Multiply by stock density"
+  },
+  {
+    "quantity": "Flow",
+    "unit": "Sm3/h",
+    "basis": "base volume",
+    "internalUnit": "m3/s",
+    "multiplier": 0.0002777777777777778,
+    "offset": 0.0,
+    "note": "Multiply by base density"
+  },
+  {
+    "quantity": "Flow",
+    "unit": "Nm3/h",
+    "basis": "base volume",
+    "internalUnit": "m3/s",
+    "multiplier": 0.0002777777777777778,
+    "offset": 0.0,
+    "note": "Base condition must be explicit"
+  },
+  {
+    "quantity": "Flow",
+    "unit": "Sm3/d",
+    "basis": "base volume",
+    "internalUnit": "m3/s",
+    "multiplier": 1.1574074074074073e-05,
+    "offset": 0.0,
+    "note": "Multiply by base density"
+  },
+  {
+    "quantity": "Flow",
+    "unit": "Nm3/d",
+    "basis": "base volume",
+    "internalUnit": "m3/s",
+    "multiplier": 1.1574074074074073e-05,
+    "offset": 0.0,
+    "note": "Base condition must be explicit"
+  },
+  {
+    "quantity": "Flow",
+    "unit": "SCFD",
+    "basis": "base volume",
+    "internalUnit": "m3/s",
+    "multiplier": 3.2774128000000003e-07,
+    "offset": 0.0,
+    "note": "Multiply by base density"
+  },
+  {
+    "quantity": "Flow",
+    "unit": "MSCFD",
+    "basis": "base volume",
+    "internalUnit": "m3/s",
+    "multiplier": 0.00032774128,
+    "offset": 0.0,
+    "note": "M = thousand"
+  },
+  {
+    "quantity": "Flow",
+    "unit": "MMSCFD",
+    "basis": "base volume",
+    "internalUnit": "m3/s",
+    "multiplier": 0.32774128,
+    "offset": 0.0,
+    "note": "MM = million"
+  },
+  {
+    "quantity": "Temperature",
+    "unit": "degC",
+    "basis": "temperature",
+    "internalUnit": "K",
+    "multiplier": 1.0,
+    "offset": 273.15,
+    "note": "K = C + 273.15"
+  },
+  {
+    "quantity": "Temperature",
+    "unit": "degF",
+    "basis": "temperature",
+    "internalUnit": "K",
+    "multiplier": 0.5555555555555556,
+    "offset": 255.3722222222,
+    "note": "K = F\u00d75/9 + 255.3722"
+  },
+  {
+    "quantity": "Temperature",
+    "unit": "K",
+    "basis": "temperature",
+    "internalUnit": "K",
+    "multiplier": 1.0,
+    "offset": 0.0,
+    "note": null
+  },
+  {
+    "quantity": "Pressure",
+    "unit": "Pa(g)",
+    "basis": "pressure",
+    "internalUnit": "Pa abs",
+    "multiplier": 1.0,
+    "offset": 101325.0,
+    "note": null
+  },
+  {
+    "quantity": "Pressure",
+    "unit": "Pa(a)",
+    "basis": "pressure",
+    "internalUnit": "Pa abs",
+    "multiplier": 1.0,
+    "offset": 0.0,
+    "note": null
+  },
+  {
+    "quantity": "Pressure",
+    "unit": "kPa(g)",
+    "basis": "pressure",
+    "internalUnit": "Pa abs",
+    "multiplier": 1000.0,
+    "offset": 101325.0,
+    "note": null
+  },
+  {
+    "quantity": "Pressure",
+    "unit": "kPa(a)",
+    "basis": "pressure",
+    "internalUnit": "Pa abs",
+    "multiplier": 1000.0,
+    "offset": 0.0,
+    "note": null
+  },
+  {
+    "quantity": "Pressure",
+    "unit": "bar(g)",
+    "basis": "pressure",
+    "internalUnit": "Pa abs",
+    "multiplier": 100000.0,
+    "offset": 101325.0,
+    "note": null
+  },
+  {
+    "quantity": "Pressure",
+    "unit": "bar(a)",
+    "basis": "pressure",
+    "internalUnit": "Pa abs",
+    "multiplier": 100000.0,
+    "offset": 0.0,
+    "note": null
+  },
+  {
+    "quantity": "Pressure",
+    "unit": "psi(g)",
+    "basis": "pressure",
+    "internalUnit": "Pa abs",
+    "multiplier": 6894.757293168,
+    "offset": 101325.0,
+    "note": null
+  },
+  {
+    "quantity": "Pressure",
+    "unit": "psia",
+    "basis": "pressure",
+    "internalUnit": "Pa abs",
+    "multiplier": 6894.757293168,
+    "offset": 0.0,
+    "note": null
+  },
+  {
+    "quantity": "Pressure",
+    "unit": "MPa(g)",
+    "basis": "pressure",
+    "internalUnit": "Pa abs",
+    "multiplier": 1000000.0,
+    "offset": 101325.0,
+    "note": null
+  },
+  {
+    "quantity": "Pressure",
+    "unit": "MPa(a)",
+    "basis": "pressure",
+    "internalUnit": "Pa abs",
+    "multiplier": 1000000.0,
+    "offset": 0.0,
+    "note": null
+  },
+  {
+    "quantity": "Pressure",
+    "unit": "kg/cm2(g)",
+    "basis": "pressure",
+    "internalUnit": "Pa abs",
+    "multiplier": 98066.5,
+    "offset": 101325.0,
+    "note": null
+  },
+  {
+    "quantity": "DP",
+    "unit": "Pa",
+    "basis": "differential",
+    "internalUnit": "Pa",
+    "multiplier": 1.0,
+    "offset": 0.0,
+    "note": null
+  },
+  {
+    "quantity": "DP",
+    "unit": "kPa",
+    "basis": "differential",
+    "internalUnit": "Pa",
+    "multiplier": 1000.0,
+    "offset": 0.0,
+    "note": null
+  },
+  {
+    "quantity": "DP",
+    "unit": "mbar",
+    "basis": "differential",
+    "internalUnit": "Pa",
+    "multiplier": 100.0,
+    "offset": 0.0,
+    "note": null
+  },
+  {
+    "quantity": "DP",
+    "unit": "bar",
+    "basis": "differential",
+    "internalUnit": "Pa",
+    "multiplier": 100000.0,
+    "offset": 0.0,
+    "note": null
+  },
+  {
+    "quantity": "DP",
+    "unit": "psi",
+    "basis": "differential",
+    "internalUnit": "Pa",
+    "multiplier": 6894.757293168,
+    "offset": 0.0,
+    "note": null
+  },
+  {
+    "quantity": "DP",
+    "unit": "mmH2O_4C",
+    "basis": "differential",
+    "internalUnit": "Pa",
+    "multiplier": 9.80638,
+    "offset": 0.0,
+    "note": "4 C water: NIST SP811 B.9 cmH2O(4 C) / 10. Part 5 corrects legacy conventional-water factor 9.80665."
+  },
+  {
+    "quantity": "DP",
+    "unit": "inH2O_4C",
+    "basis": "differential",
+    "internalUnit": "Pa",
+    "multiplier": 249.082,
+    "offset": 0.0,
+    "note": "39.2 F / 4 C water: NIST SP811 B.9. Part 5 corrects legacy conventional-water factor 249.08891."
+  },
+  {
+    "quantity": "Density",
+    "unit": "kg/m3",
+    "basis": "density",
+    "internalUnit": "kg/m3",
+    "multiplier": 1.0,
+    "offset": 0.0,
+    "note": null
+  },
+  {
+    "quantity": "Density",
+    "unit": "kg/L",
+    "basis": "density",
+    "internalUnit": "kg/m3",
+    "multiplier": 1000.0,
+    "offset": 0.0,
+    "note": null
+  },
+  {
+    "quantity": "Density",
+    "unit": "lb/ft3",
+    "basis": "density",
+    "internalUnit": "kg/m3",
+    "multiplier": 16.01846337396,
+    "offset": 0.0,
+    "note": null
+  },
+  {
+    "quantity": "Viscosity",
+    "unit": "Pa.s",
+    "basis": "dynamic viscosity",
+    "internalUnit": "Pa.s",
+    "multiplier": 1.0,
+    "offset": 0.0,
+    "note": null
+  },
+  {
+    "quantity": "Viscosity",
+    "unit": "cP",
+    "basis": "dynamic viscosity",
+    "internalUnit": "Pa.s",
+    "multiplier": 0.001,
+    "offset": 0.0,
+    "note": null
+  },
+  {
+    "quantity": "Viscosity",
+    "unit": "mPa.s",
+    "basis": "dynamic viscosity",
+    "internalUnit": "Pa.s",
+    "multiplier": 0.001,
+    "offset": 0.0,
+    "note": null
+  },
+  {
+    "quantity": "Flow",
+    "unit": "ft3/d actual",
+    "basis": "actual volume",
+    "internalUnit": "m3/s",
+    "multiplier": 3.2774128000000003e-07,
+    "offset": 0.0,
+    "note": "Multiply by operating density"
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "baseline": "Orifice_Part_4_Interface_Package.zip",
+  "engineBefore": "0.1.0",
+  "engineAfter": "0.2.0",
+  "sourceWorkbookUnchanged": true,
+  "pipeCatalogUnchanged": true,
+  "changedExistingFiles": [
+    {
+      "path": "README.md",
+      "part4Sha256": "4e501d63e9c538630df863019f5118099c72e159f15b9c1f71e1e2790f1f1356",
+      "part5Sha256": "c88a549572140dc0ff89f67fa8f6c730c7249177461296c0054af7203345704f"
+    },
+    {
+      "path": "data/units.json",
+      "part4Sha256": "9ae2ec9b5753e542d8432137b32a28b3c916605f4906ad653251aefa288d17ab",
+      "part5Sha256": "a05e9d9930006ffa2f336158b92ad85afc0b9fccf504da8d5612939a7fa73800"
+    },
+    {
+      "path": "package-lock.json",
+      "part4Sha256": "768d35848fa3005c14ff4a339f604c7a13ccf832033688c831ebfee87e36f059",
+      "part5Sha256": "11d092d3de09d4504e664c611290600a303f5c1623e6cae573d6cf01851fa6de"
+    },
+    {
+      "path": "package.json",
+      "part4Sha256": "4d31eddcb372540f431594a27e2608f57fe1d7678dab47d7d44675c4ecd2a749",
+      "part5Sha256": "597f93630c38a8c627bcea24689531e125ce2f15168e5cd7d64b2754c395d842"
+    },
+    {
+      "path": "public/index.html",
+      "part4Sha256": "888be2663e54bf28ec93e2e4582d0389b364a458199c00220dd8485bc5e74169",
+      "part5Sha256": "af18c28a7f11586f6f2519793efd2535426851db423ddc6ba10ca8fce5447a74"
+    },
+    {
+      "path": "src/catalog.ts",
+      "part4Sha256": "475243b88a45d8bd0642f01d1ac8a651e66f6b18ae0db441bc4a807e66d5cf04",
+      "part5Sha256": "be20ad7c51d1c792eb47f05cdfe33d8fc50b4e510dcafc1dc5f9da30952fb213"
+    },
+    {
+      "path": "src/engine.ts",
+      "part4Sha256": "93b3ffb0adc07f07f7c06aa89cb7d8a4b88154bf81864a8e9afc3ed43180295c",
+      "part5Sha256": "827c3a3177f19444ca240cb555e40cd62fab4d9ad9a673a236268e738f9dcc6b"
+    },
+    {
+      "path": "src/equations.ts",
+      "part4Sha256": "320d86eb67c467f4ebbf80537e844abd0194319daff0ccf556d44818e8e89a7a",
+      "part5Sha256": "fa677d362eec1b009b99982b59f545a708fcf66fc924601a622d11167cb3157b"
+    }
+  ],
+  "newRegressionTests": 9,
+  "nodeTestsPassed": 55,
+  "independentScalarComparisons": 19965,
+  "engineeringVerified": false,
+  "engineeringRelease": "HOLD"
+}

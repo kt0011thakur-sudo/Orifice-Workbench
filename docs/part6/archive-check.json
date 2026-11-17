@@ -1,0 +1,33 @@
+{
+  "checkedAt": "2026-10-03T16:54:51.676688+00:00",
+  "scope": "Clean extraction of the release file set, without node_modules or development-runtime fallback. Final documentation/evidence is packaged after this check; listed source hashes remain unchanged.",
+  "checks": [
+    {
+      "name": "Source integrity",
+      "status": "PASS",
+      "evidence": "extracted-integrity.txt"
+    },
+    {
+      "name": "Startup integration tests",
+      "status": "PASS",
+      "evidence": "extracted-startup-tests.txt"
+    },
+    {
+      "name": "API walkthrough",
+      "status": "PASS",
+      "evidence": "extracted-api-walkthrough.json"
+    },
+    {
+      "name": "Integrity checker detects a changed delivered file",
+      "status": "PASS"
+    },
+    {
+      "name": "Working release files still match the extracted snapshot",
+      "status": "PASS",
+      "fileCount": 56
+    }
+  ],
+  "status": "PASS",
+  "nodeTestsInExtractedPackage": 6,
+  "apiWalkthroughChecks": 10
+}

@@ -1,0 +1,14 @@
+✔ entry point refuses unsupported Node versions before loading TypeScript (1.841369ms)
+✔ startup preflight works outside project cwd, handles spaces and removes its probe (113.123065ms)
+✔ startup rejects a malformed port with an actionable error (34.343951ms)
+✔ startup rejects an unusable project storage path (41.217996ms)
+✔ launcher serves real calculations and saved projects survive a process restart (274.515729ms)
+✔ occupied port produces a clear message without terminating the other server (108.658222ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 630.967886
